@@ -11,7 +11,7 @@ netcdf4==1.5.6\
 torch==1.7.1\
 numpy==1.19.1
 
-## Reference
+## References
 - SAConvLSTM\
 Self-Attention ConvLSTM for Spatiotemporal Prediction (Lin et al., 2020) [https://ojs.aaai.org/index.php/AAAI/article/view/6819](https://ojs.aaai.org/index.php/AAAI/article/view/6819)
 - Conv-TT-LSTM\
