@@ -4,14 +4,14 @@ This is the top 1 (B榜) solution for the TianChi AIEarth Contest (https://tianc
 The three models are implemented in Pytorch for Nino prediction and currently support single-GPU training only.
 Note that the model architecture of the SAConvLSTM and Conv-TT-LSTM are from the original papers, and we novelly modify the TimeSformer as STTransformer for spatio-temporal prediction.
 
-# Dependencies
+## Dependencies
 In general, several major packages are needed\
 xarray==0.17.0\
 netcdf4==1.5.6\
 torch==1.7.1\
 numpy==1.19.1
 
-# Reference
+## Reference
 - SAConvLSTM\
 Self-Attention ConvLSTM for Spatiotemporal Prediction (Lin et al., 2020) [https://ojs.aaai.org/index.php/AAAI/article/view/6819](https://ojs.aaai.org/index.php/AAAI/article/view/6819)
 - Conv-TT-LSTM\
