@@ -72,7 +72,7 @@ class Trainer:
             sc = self.score(nino_pred, nino_true)
             loss_sst = self.loss_sst(sst_pred, sst_true).item()
             loss_nino = self.loss_nino(nino_pred, nino_true).item()
-        return loss_sst, loss_nino, sc, nino_pred
+        return loss_sst, loss_nino, sc
 
     def train(self, dataset_train, dataset_eval, chk_path):
         torch.manual_seed(0)
